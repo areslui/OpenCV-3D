@@ -1,0 +1,12 @@
+PODS:
+  - OpenCV2-contrib (3.2.0.1)
+
+DEPENDENCIES:
+  - OpenCV2-contrib
+
+SPEC CHECKSUMS:
+  OpenCV2-contrib: 314f0aa0159767a4b2e4208a35d646542bc15da6
+
+PODFILE CHECKSUM: ad178fb36c1c5ea4be9eed6921cd617f2971358a
+
+COCOAPODS: 1.2.1.rc.1

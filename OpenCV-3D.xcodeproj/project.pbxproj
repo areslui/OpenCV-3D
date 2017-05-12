@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5009B7421EBD700D00F0E53B /* pcl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5009B7411EBD700D00F0E53B /* pcl.framework */; };
+		5014F0E31EC3001300C24D4C /* OpenGLES.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5014F0E21EC3001300C24D4C /* OpenGLES.mm */; };
 		506F65691EBC596D00D91C10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 506F65681EBC596D00D91C10 /* main.m */; };
 		506F656C1EBC596D00D91C10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 506F656B1EBC596D00D91C10 /* AppDelegate.m */; };
-		506F656F1EBC596D00D91C10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506F656E1EBC596D00D91C10 /* ViewController.m */; };
+		506F656F1EBC596D00D91C10 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 506F656E1EBC596D00D91C10 /* ViewController.mm */; };
 		506F65721EBC596D00D91C10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506F65701EBC596D00D91C10 /* Main.storyboard */; };
 		506F65741EBC596D00D91C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506F65731EBC596D00D91C10 /* Assets.xcassets */; };
 		506F65771EBC596D00D91C10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506F65751EBC596D00D91C10 /* LaunchScreen.storyboard */; };
-		506F65801EBC59A600D91C10 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506F657F1EBC59A600D91C10 /* opencv2.framework */; };
 		506F65821EBC59C700D91C10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506F65811EBC59C700D91C10 /* Foundation.framework */; };
 		506F65841EBC59CD00D91C10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506F65831EBC59CD00D91C10 /* UIKit.framework */; };
 		506F65861EBC59D400D91C10 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506F65851EBC59D400D91C10 /* QuartzCore.framework */; };
@@ -24,20 +25,28 @@
 		506F65901EBC5A0500D91C10 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506F658F1EBC5A0500D91C10 /* CoreImage.framework */; };
 		506F65921EBC5A0B00D91C10 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506F65911EBC5A0B00D91C10 /* AVFoundation.framework */; };
 		506F65961EBC5AB500D91C10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506F65951EBC5AB500D91C10 /* CoreGraphics.framework */; };
+		506F659D1EBC7CD000D91C10 /* Utilities.mm in Sources */ = {isa = PBXBuildFile; fileRef = 506F659C1EBC7CD000D91C10 /* Utilities.mm */; };
+		50BB30651EBEF9790080AA3E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BB30641EBEF9790080AA3E /* OpenGLES.framework */; };
+		50BB30671EBEFD090080AA3E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BB30661EBEFD090080AA3E /* GLKit.framework */; };
+		652765F8EA5F1CE76839603E /* libPods-OpenCV-3D.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CE00F69EC148A3DFA4B154 /* libPods-OpenCV-3D.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B72E3F6582B74CBA87E54D7 /* Pods-OpenCV-3D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCV-3D.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCV-3D/Pods-OpenCV-3D.release.xcconfig"; sourceTree = "<group>"; };
+		1337799F626038485FF5AB2B /* Pods-OpenCV-3D.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCV-3D.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCV-3D/Pods-OpenCV-3D.debug.xcconfig"; sourceTree = "<group>"; };
+		5009B7411EBD700D00F0E53B /* pcl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pcl.framework; sourceTree = "<group>"; };
+		5014F0E11EC3001300C24D4C /* OpenGLES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLES.h; sourceTree = "<group>"; };
+		5014F0E21EC3001300C24D4C /* OpenGLES.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenGLES.mm; sourceTree = "<group>"; };
 		506F65641EBC596D00D91C10 /* OpenCV-3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenCV-3D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		506F65681EBC596D00D91C10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		506F656A1EBC596D00D91C10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		506F656B1EBC596D00D91C10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		506F656D1EBC596D00D91C10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		506F656E1EBC596D00D91C10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		506F656E1EBC596D00D91C10 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		506F65711EBC596D00D91C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		506F65731EBC596D00D91C10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		506F65761EBC596D00D91C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		506F65781EBC596D00D91C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		506F657F1EBC59A600D91C10 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		506F65811EBC59C700D91C10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		506F65831EBC59CD00D91C10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		506F65851EBC59D400D91C10 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -48,6 +57,12 @@
 		506F658F1EBC5A0500D91C10 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		506F65911EBC5A0B00D91C10 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		506F65951EBC5AB500D91C10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		506F659B1EBC7CD000D91C10 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		506F659C1EBC7CD000D91C10 /* Utilities.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Utilities.mm; sourceTree = "<group>"; };
+		506F659E1EBC7D6600D91C10 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		50BB30641EBEF9790080AA3E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		50BB30661EBEFD090080AA3E /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B7CE00F69EC148A3DFA4B154 /* libPods-OpenCV-3D.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenCV-3D.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50BB30671EBEFD090080AA3E /* GLKit.framework in Frameworks */,
+				50BB30651EBEF9790080AA3E /* OpenGLES.framework in Frameworks */,
+				5009B7421EBD700D00F0E53B /* pcl.framework in Frameworks */,
 				506F65961EBC5AB500D91C10 /* CoreGraphics.framework in Frameworks */,
 				506F65921EBC5A0B00D91C10 /* AVFoundation.framework in Frameworks */,
 				506F65901EBC5A0500D91C10 /* CoreImage.framework in Frameworks */,
@@ -65,7 +83,7 @@
 				506F65861EBC59D400D91C10 /* QuartzCore.framework in Frameworks */,
 				506F65841EBC59CD00D91C10 /* UIKit.framework in Frameworks */,
 				506F65821EBC59C700D91C10 /* Foundation.framework in Frameworks */,
-				506F65801EBC59A600D91C10 /* opencv2.framework in Frameworks */,
+				652765F8EA5F1CE76839603E /* libPods-OpenCV-3D.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +96,7 @@
 				506F65661EBC596D00D91C10 /* OpenCV-3D */,
 				506F65651EBC596D00D91C10 /* Products */,
 				506F657E1EBC59A300D91C10 /* Frameworks */,
+				5D0C3176021B3BECE98BC7E6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,12 +114,16 @@
 				506F656A1EBC596D00D91C10 /* AppDelegate.h */,
 				506F656B1EBC596D00D91C10 /* AppDelegate.m */,
 				506F656D1EBC596D00D91C10 /* ViewController.h */,
-				506F656E1EBC596D00D91C10 /* ViewController.m */,
+				506F656E1EBC596D00D91C10 /* ViewController.mm */,
 				506F65701EBC596D00D91C10 /* Main.storyboard */,
 				506F65731EBC596D00D91C10 /* Assets.xcassets */,
 				506F65751EBC596D00D91C10 /* LaunchScreen.storyboard */,
 				506F65781EBC596D00D91C10 /* Info.plist */,
 				506F65671EBC596D00D91C10 /* Supporting Files */,
+				506F659B1EBC7CD000D91C10 /* Utilities.h */,
+				506F659C1EBC7CD000D91C10 /* Utilities.mm */,
+				5014F0E11EC3001300C24D4C /* OpenGLES.h */,
+				5014F0E21EC3001300C24D4C /* OpenGLES.mm */,
 			);
 			path = "OpenCV-3D";
 			sourceTree = "<group>";
@@ -109,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				506F65681EBC596D00D91C10 /* main.m */,
+				506F659E1EBC7D6600D91C10 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -116,6 +140,9 @@
 		506F657E1EBC59A300D91C10 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				50BB30661EBEFD090080AA3E /* GLKit.framework */,
+				50BB30641EBEF9790080AA3E /* OpenGLES.framework */,
+				5009B7411EBD700D00F0E53B /* pcl.framework */,
 				506F65951EBC5AB500D91C10 /* CoreGraphics.framework */,
 				506F65911EBC5A0B00D91C10 /* AVFoundation.framework */,
 				506F658F1EBC5A0500D91C10 /* CoreImage.framework */,
@@ -126,9 +153,18 @@
 				506F65851EBC59D400D91C10 /* QuartzCore.framework */,
 				506F65831EBC59CD00D91C10 /* UIKit.framework */,
 				506F65811EBC59C700D91C10 /* Foundation.framework */,
-				506F657F1EBC59A600D91C10 /* opencv2.framework */,
+				B7CE00F69EC148A3DFA4B154 /* libPods-OpenCV-3D.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D0C3176021B3BECE98BC7E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1337799F626038485FF5AB2B /* Pods-OpenCV-3D.debug.xcconfig */,
+				0B72E3F6582B74CBA87E54D7 /* Pods-OpenCV-3D.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 506F657B1EBC596D00D91C10 /* Build configuration list for PBXNativeTarget "OpenCV-3D" */;
 			buildPhases = (
+				CAD8DB6C0AAD4C62311A6018 /* [CP] Check Pods Manifest.lock */,
 				506F65601EBC596D00D91C10 /* Sources */,
 				506F65611EBC596D00D91C10 /* Frameworks */,
 				506F65621EBC596D00D91C10 /* Resources */,
+				9FE0A2317071C415B3001FD1 /* [CP] Embed Pods Frameworks */,
+				FBCD892027170891E50215B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,14 +237,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9FE0A2317071C415B3001FD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCV-3D/Pods-OpenCV-3D-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAD8DB6C0AAD4C62311A6018 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBCD892027170891E50215B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCV-3D/Pods-OpenCV-3D-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		506F65601EBC596D00D91C10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				506F656F1EBC596D00D91C10 /* ViewController.m in Sources */,
+				506F656F1EBC596D00D91C10 /* ViewController.mm in Sources */,
 				506F656C1EBC596D00D91C10 /* AppDelegate.m in Sources */,
+				506F659D1EBC7CD000D91C10 /* Utilities.mm in Sources */,
 				506F65691EBC596D00D91C10 /* main.m in Sources */,
+				5014F0E31EC3001300C24D4C /* OpenGLES.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +412,7 @@
 		};
 		506F657C1EBC596D00D91C10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1337799F626038485FF5AB2B /* Pods-OpenCV-3D.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3TX3G224X2;
@@ -331,6 +421,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "OpenCV-3D/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.okaylens.OpenCV-3D";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -339,6 +430,7 @@
 		};
 		506F657D1EBC596D00D91C10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B72E3F6582B74CBA87E54D7 /* Pods-OpenCV-3D.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3TX3G224X2;
@@ -347,6 +439,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "OpenCV-3D/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.okaylens.OpenCV-3D";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -372,6 +465,7 @@
 				506F657D1EBC596D00D91C10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
