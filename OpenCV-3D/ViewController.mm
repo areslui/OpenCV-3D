@@ -146,7 +146,7 @@ static const SceneVertex vertices[] =
 {
     [super viewDidUnload];
     
-    // this is test
+    // test comment yyy
     
     // Make the view's context current
     GLKView *view = (GLKView *)self.view;
