@@ -146,8 +146,6 @@ static const SceneVertex vertices[] =
 {
     [super viewDidUnload];
     
-    // test comment yyy
-    
     // Make the view's context current
     GLKView *view = (GLKView *)self.view;
     [EAGLContext setCurrentContext:view.context];
